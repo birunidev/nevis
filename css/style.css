@@ -1,0 +1,599 @@
+html {
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FBFBFB;
+    font-family: 'Montserrat';
+    color: #621B00;
+    background: #ffffff;
+    width: 100%;
+}
+
+/* Global */
+
+
+/* Navbar */
+nav {
+    background: #621B00;
+}
+
+.navbar .navbar-toggler {
+    border: 1px solid white !important;
+    padding: 10px 10px;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white !important;
+}
+
+nav .navbar-brand {
+    font-size: 30px;
+    color: white !important;
+
+}
+
+/* Navbar ends */
+
+/* Headline */
+
+.jumbotron {
+    background: url(../img/header.jpg) no-repeat -10px -100px;
+    height: 500px;
+}
+
+.jumbotron .mobile-device .display-4 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.jumbotron .mobile-device .display-4 .content {
+    font-weight: 600;
+}
+
+.jumbotron .mobile-device .lead {
+    text-transform: capitalize;
+    color: white;
+    font-size: 23px;
+}
+
+.jumbotron .mobile-device .btn {
+    background: white;
+    border-radius: 20px;
+    color: #621B00;
+}
+
+/* Headline ends */
+
+/* Main Content */
+
+
+
+.main {
+    text-align: center;
+}
+
+/* offer */
+.main .offer-content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* offer ends */
+
+
+/* Services */
+.main .services .service-title {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.main .services .blogging img {
+    margin-bottom: 10px;
+}
+
+.main .services .blogging .service-title {
+    margin-bottom: 10px;
+}
+
+.main .services .blogging .service-subtitle {
+    font-size: 25px;
+}
+
+.main .services .blogging .service-subtitle span {
+    font-weight: 600;
+}
+
+.main .services .blogging .service-content {
+    margin-top: -10px;
+}
+
+.main .services .blogging .btn {
+    background: #621B00;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Services ends */
+
+
+/* Blog */
+
+.main .blog h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.main .blog-wrapper .blog-content-big {
+    background-image: url(../img/livingroom.jpg);
+
+    width: 100%;
+    height: 300px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.main .blog-wrapper .blog-content-big-2 {
+    background-image: url(../img/agent.jpg);
+    width: 100%;
+    height: 300px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+.main .blog-wrapper .blog-content-big-3 {
+    background-image: url(../img/brainstorm.png);
+    width: 100%;
+    height: 340px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.main .blog-wrapper .blog-info {
+    transform: translateY(120px);
+    text-align: left;
+    padding-left: 10px;
+}
+
+.main .blog-wrapper .blog-info .tips {
+    background: #D17A62;
+    width: 100px;
+    padding-left: 3px;
+    text-transform: capitalize;
+}
+
+.main .blog-wrapper .blog-info .author-info {
+    display: flex;
+}
+
+.main .blog-wrapper .blog-info .author-info p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Blog ends */
+
+
+/* Solution */
+.solution {
+    background: #621B00;
+    padding: 30px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+/* Solution ends */
+
+
+/* Testimonials */
+.container .testimonial {
+    text-align: center;
+}
+
+.container .testimonial h2 {
+    font-size: 25px;
+}
+
+.container .testimonial p {
+    color: #BF4309;
+    margin-bottom: 20px;
+}
+
+.container .clients {
+    text-align: center;
+
+}
+
+.container .clients .client-wrapper-top {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.container .clients .client-said-top h6 {
+    font-size: 19px;
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+
+.container .clients .client-said-top .occasion {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .clients .client-said-top .occasion {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .clients .client-said-top .says {
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+.container .clients .client-wrapper-bottom {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.container .clients .client-said-bottom h6 {
+    font-size: 19px;
+    margin-top: 20px;
+    font-weight: 500;
+
+}
+
+.container .clients .client-said-bottom .occasion {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .clients .client-said-bottom .occasion {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container .clients .client-said-bottom .says {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.container .clients .btn {
+    margin: 0 auto 20px;
+    background: #621B00;
+    color: white;
+    border-radius: 20px;
+
+}
+
+/* Testimonials ends */
+
+
+/* Create your post today */
+
+.today {
+    background: #BF4309;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.today h6 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.today .btn {
+    text-transform: uppercase;
+    color: white;
+    background: #621B00;
+    border-radius: 20px;
+}
+
+/* Create your post today ends */
+
+/* Contact us */
+
+.container .contact-us {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.container form input:focus {
+    box-shadow: 0 0 5px #BF4309;
+    border: none;
+}
+
+.container form textarea:focus {
+    box-shadow: 0 0 5px #BF4309;
+    border: none;
+}
+
+.container form .btn {
+
+    background: #621B00;
+    color: white;
+    border-radius: 15px;
+}
+
+.container .terms {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.container .terms a {
+    color: #621B00;
+
+}
+
+/* Contact us ends */
+
+
+/* footer */
+
+footer {
+    padding: 30px;
+    background: #621B00;
+    color: white;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .social-icon {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+footer .social-icon a {
+    color: white;
+
+}
+
+footer .social-icon i {
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+footer .logo {
+    font-size: 30px;
+}
+
+/* footer ends */
+
+
+
+/* Tablet Version */
+@media (min-width: 768px) {
+    .jumbotron {
+        background: url(../img/header.jpg) no-repeat 10px;
+        height: 450px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    .main .offers .offer-content {
+        margin: 0 auto;
+    }
+
+    .main .service-content {
+        text-align: left;
+    }
+
+    .main .services .blogging .btn {
+        float: left;
+    }
+
+    .main .blog-wrapper .blog-content-big {
+        background-image: url(../img/livingroom.jpg);
+        background-size: cover;
+
+        width: 100%;
+        height: 300px;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        margin-bottom: 10px;
+
+    }
+
+    .main .blog-wrapper .blog-content-big-2 {
+        background-image: url(../img/agent.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        margin-bottom: 10px;
+
+    }
+
+    .main .blog-wrapper .blog-content-big-3 {
+        background-image: url(../img/brainstorm.png);
+
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .main .blog-wrapper .blog-info {
+        transform: translateY(100px);
+        text-align: left;
+        padding: 10px;
+    }
+
+    .solution {
+        text-align: left;
+        transform: translateY(130px);
+        padding: 60px;
+    }
+
+    .solution h5 {
+        transform: translateX(40px);
+        font-size: 30px;
+    }
+
+    .gambar-solution {
+        background: url(../img/woman.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+        width: 400px;
+        z-index: 20;
+        transform: translate(420px, -150px);
+    }
+
+    .client-top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10px;
+    }
+
+    .client-bottom {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .client-wrapper-bottom {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .client-top .client-said-top {
+        text-align: left;
+        margin-top: 40px;
+    }
+
+    .client-bottom .client-said-bottom {
+        text-align: right;
+        margin-top: 40px;
+    }
+
+    .client-top .client-said-top h6,
+    .client-bottom .client-said-bottom h6 {
+        font-size: 30px !important;
+    }
+
+    .client-top .client-said-top .occasion,
+    .client-bottom .client-said-bottom .occasion {
+        font-size: 20px !important;
+    }
+
+    .client-top .client-said-top .says,
+    .client-bottom .client-said-bottom .says {
+        font-size: 17px !important;
+    }
+
+}
+
+/* Desktop Version */
+@media (min-width: 992px) {
+
+    .jumbotron {
+        background-size: cover;
+        background: url(../img/header.jpg) no-repeat -10px -100px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 60px;
+    }
+
+    .jumbotron .lead {
+        font-size: 40px !important;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .main .blog-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template: rows 1fr 1fr;
+    }
+
+    .main .blog-container #blog1 {
+        grid-column: 1;
+        grid-row: 1/4;
+        grid-gap: 0;
+    }
+
+    .main .blog-wrapper .blog-content-big {
+        background-image: url(../img/livingroom.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 610px;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .main .blog-wrapper .blog-content-big-2 {
+        background-image: url(../img/agent.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .main .blog-wrapper .blog-content-big-3 {
+        background-image: url(../img/brainstorm.png);
+
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        color: white;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .main #blog1 .blog-info {
+        transform: translateY(450px);
+        text-align: left;
+        padding: 10px;
+    }
+
+    .main #blog2 .blog-info,
+    .main #blog3 .blog-info {
+        transform: translateY(150px);
+    }
+
+    .main #blog2 .blog-info .author-info,
+    .main #blog3 .blog-info .author-info {
+        display: none;
+    }
+
+    .gambar-solution {
+        transform: translate(500px, -150px);
+    }
+}
